@@ -1,21 +1,22 @@
+---
 title: Construct
-baseURL: /
+baseURL: "/"
 params:
-  palette: blue
+  palette: cyan
   palettes:
     blue:
       sass:
-        color: '#4a74c9'
+        color: "#4a74c9"
     cyan:
       sass:
-        color: '#33bdb5'
+        color: "#33bdb5"
     green:
       sass:
-        color: '#459e59'
+        color: "#459e59"
     red:
       sass:
-        color: '#ce5667'
+        color: "#ce5667"
 disableKinds:
-  - RSS
-  - taxonomy
-  - taxonomyTerm
+- RSS
+- taxonomy
+- taxonomyTerm
